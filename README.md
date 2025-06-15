@@ -137,5 +137,12 @@ MSE ≈ slightly higher
   <li>SGD gives quicker but noisier convergence compared to batch gradient descent.</li>
 </ul>
 
+<h2>References</h2>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=IHZwWFHWa-w">Theory on gradient descent</a></li>
+  <li><a href="https://www.youtube.com/watch?v=i62czvwDlsw">all types of gradient descents(batch, stochastic and mini batch)</a></li>
+  <li><a href="https://www.youtube.com/watch?v=IH9kqpMORLM&t=389s">Linear regression in python from scratch</a></li>
+</ul>
+
 </body>
 </html>
