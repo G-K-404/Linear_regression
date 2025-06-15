@@ -44,6 +44,7 @@ YearsExperience (independent variable x)
 
 Salary (dependent variable y)
 ```
+<a href="https://www.kaggle.com/datasets/abhishek14398/salary-dataset-simple-linear-regression/data">Dataset</a>
 🚀 <h3>How It Works</h3>
 🔁 <h4>Model Equation</h4>
 The prediction function is:
