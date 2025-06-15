@@ -2,15 +2,15 @@
 This project demonstrates a complete implementation of univariate linear regression using both Gradient Descent and Stochastic Gradient Descent (SGD). It includes data normalization, model training, evaluation using accuracy metrics like R² and MSE, and visualization of predicted vs actual outputs.
 
 <h2>🔧 Features</h2>
-Linear regression using:
+<h3>Linear regression using:</h3>
 
 Batch Gradient Descent
 
 Stochastic Gradient Descent (SGD)
 
-Works on both:
+<h3>Works on both:</h3>
 
-Custom dummy data
+Custom dummy data(with significant R^2 value)
 
 Real dataset (Salary_dataset.csv)
 
@@ -57,21 +57,19 @@ w2 is the weight
 
 x is the input feature
 ```
-🔍 Cost Function
+🔍 <h4>Cost Function</h4>
 The loss is measured using the Mean Squared Error (MSE):
-
-ini
-Copy
-Edit
+```
 MSE = (1/N) * Σ(ŷ - y)²
-🧠 Optimization Methods
-✅ Batch Gradient Descent
+```
+🧠 <h3>Optimization Methods</h3>
+✅ <h4>Batch Gradient Descent</h4>
 Updates parameters using the average gradient over the full dataset.
 
-🔄 Stochastic Gradient Descent (SGD)
+🔄 <h4>Stochastic Gradient Descent (SGD)</h4>
 Updates weights for each data point one at a time — faster, more volatile convergence.
 
-📈 Visualization
+📈 <h3>Visualization</h3>
 Plots are created using Matplotlib to show:
 
 Original data (scatter plot)
@@ -85,28 +83,23 @@ R² = 1 - (SSR/SST)
 
 Mean Squared Error (MSE): Measures average squared difference between predicted and actual values.
 
-⚙️ Usage
-1. Clone the Repository
-bash
-Copy
-Edit
+⚙️ <h2>Usage</h2>
+1. <h3>Clone the Repository</h3>
+```bash
 git clone https://github.com/yourusername/linear-regression-scratch.git
 cd linear-regression-scratch
-2. Run the Notebook or Script
+```
+2. <h3>Run the Notebook or Script</h3>
 Ensure matplotlib and numpy are installed:
-
-bash
-Copy
-Edit
+```bash
 pip install matplotlib numpy
+```
 Then run using Jupyter Notebook or directly execute the Python script.
 
-🧪 Example Results
-Using dummy data:
+🧪 <h2>Example Results</h2>
+<h3>Using dummy data:</h3>
 
-yaml
-Copy
-Edit
+```yaml
 Input: x = [1,2,3,...,10]
 Output: y = [5,7,9,...,23]
 
@@ -118,12 +111,12 @@ SGD:
 R² ≈ 0.999
 MSE ≈ slightly higher
 Using real dataset (Salary_dataset.csv):
-
+```
 Scaled data (mean-std normalization)
 
 R² ≈ high (close to 0.9+ depending on data quality)
 
-📌 Notes
+📌 <h2>Notes</h2>
 Normalize inputs for better convergence.
 
 Learning rate and epoch count highly affect convergence.
