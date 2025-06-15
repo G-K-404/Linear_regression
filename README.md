@@ -1,7 +1,7 @@
-📈 <h1>Linear Regression from Scratch in Python</h1>
+<h1>📈 Linear Regression from Scratch in Python</h1>
 This project demonstrates a complete implementation of univariate linear regression using both Gradient Descent and Stochastic Gradient Descent (SGD). It includes data normalization, model training, evaluation using accuracy metrics like R² and MSE, and visualization of predicted vs actual outputs.
 
-🔧 Features
+<h2>🔧 Features</h2>
 Linear regression using:
 
 Batch Gradient Descent
@@ -24,10 +24,8 @@ R² Score (Coefficient of Determination)
 
 Mean Squared Error (MSE)
 
-📂 File Structure
-plaintext
-Copy
-Edit
+📂 <h2>File Structure</h2>
+```plaintext
 project/
 │
 ├── archive2/
@@ -35,7 +33,9 @@ project/
 │
 ├── linear_regression.py     # Main notebook/script with full implementation
 ├── README.md                # You're reading it!
-📊 Dataset
+
+```
+📊 <h2>Dataset</h2>
 Path: ./archive2/Salary_dataset.csv
 Format: CSV with two columns:
 
