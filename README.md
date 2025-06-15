@@ -24,7 +24,7 @@ R² Score (Coefficient of Determination)
 
 Mean Squared Error (MSE)
 
-<h2>📂 File Structure</h2>
+📂 <h2>File Structure</h2>
 ```plaintext
 project/
 │
@@ -35,20 +35,19 @@ project/
 ├── README.md                
 
 ```
-<h2>📊 Dataset</h2>
+📊 <h2>Dataset</h2>
+```plaintext
 Path: ./archive2/Salary_dataset.csv
 Format: CSV with two columns:
 
 YearsExperience (independent variable x)
 
 Salary (dependent variable y)
-
-🚀 How It Works
-🔁 Model Equation
+```
+🚀 <h3>How It Works</h3>
+🔁 <h4>Model Equation</h4>
 The prediction function is:
-
-Copy
-Edit
+```equation
 ŷ = w1 + w2 * x
 Where:
 
@@ -57,7 +56,7 @@ w1 is the bias
 w2 is the weight
 
 x is the input feature
-
+```
 🔍 Cost Function
 The loss is measured using the Mean Squared Error (MSE):
 
