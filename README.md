@@ -24,18 +24,18 @@ R² Score (Coefficient of Determination)
 
 Mean Squared Error (MSE)
 
-📂 <h2>File Structure</h2>
+<h2>📂 File Structure</h2>
 ```plaintext
 project/
 │
 ├── archive2/
-│   └── Salary_dataset.csv   # Dataset file
+│   └── Salary_dataset.csv   
 │
-├── linear_regression.py     # Main notebook/script with full implementation
-├── README.md                # You're reading it!
+├── linear_regression.py    
+├── README.md                
 
 ```
-📊 <h2>Dataset</h2>
+<h2>📊 Dataset</h2>
 Path: ./archive2/Salary_dataset.csv
 Format: CSV with two columns:
 
